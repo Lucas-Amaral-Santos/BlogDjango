@@ -6,6 +6,8 @@ from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
 
+# Neliza passou por aqui
+
 class PublishedManager(models.Manager):
     def get_queryset(self):
         return super(PublishedManager,
